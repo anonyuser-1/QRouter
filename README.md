@@ -169,4 +169,8 @@ python scripts/analysis/analyze_gqa_steps_accuracy.py \
 
 - This release is intentionally anonymous and replaces machine-specific paths with configurable placeholders.
 - If a required checkpoint or dependency is missing, the scripts will raise an explicit error instead of silently falling back to private locations.
-- The public training path in this repository is the one maintained to match the paper setup. 
+- The public training path in this repository is the one maintained to match the paper setup.
+
+## Acknowledgement
+
++ [MambaXray_VL](https://github.com/Event-AHU/Medical_Image_Analysis/tree/main/CXPMRG_Bench_MambaXray_VL) Our work is based on the MambaXray_VL framework.
