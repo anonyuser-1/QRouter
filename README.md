@@ -173,4 +173,4 @@ python scripts/analysis/analyze_gqa_steps_accuracy.py \
 
 ## Acknowledgement
 
-+ [MambaXray_VL](https://github.com/Event-AHU/Medical_Image_Analysis/tree/main/CXPMRG_Bench_MambaXray_VL) Our work is based on the MambaXray_VL framework.
++ [Cobra](https://github.com/OpenHelix-Team/cobra) : Extending Mamba to Multi-modal Large Language Model for Efficient Inference.
