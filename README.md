@@ -6,7 +6,7 @@ Efficient vision-language models have recently made strong progress on visual qu
 
 ### Overview
 The overall framework of QRouter is as follows：
-![overview](https://github.com/Event-AHU/Medical_Image_Analysis/blob/main/EMRRG/framework.jpg)
+![overview](https://github.com/anonyuser-1/QRouter/blob/main/framework.png)
 
 
 
