@@ -174,3 +174,7 @@ python scripts/analysis/analyze_gqa_steps_accuracy.py \
 ## Acknowledgement
 
 + [Cobra](https://github.com/OpenHelix-Team/cobra) : Extending Mamba to Multi-modal Large Language Model for Efficient Inference.
++ [LLaVA](https://github.com/haotian-liu/LLaVA) : Large Language and Vision Assistant
++ [Mamba](https://github.com/state-spaces/mamba)
++ [CIS](https://huggingface.co/datasets/aadarsh99/ConverSeg)
+
