@@ -169,4 +169,4 @@ python scripts/analysis/analyze_gqa_steps_accuracy.py \
 
 - This release is intentionally anonymous and replaces machine-specific paths with configurable placeholders.
 - If a required checkpoint or dependency is missing, the scripts will raise an explicit error instead of silently falling back to private locations.
-- The public training path in this repository is the one maintained to match the paper setup. Additional internal demo scripts and temporary experiments are intentionally omitted from this release.
+- The public training path in this repository is the one maintained to match the paper setup. 
