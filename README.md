@@ -1,6 +1,15 @@
-# QRouter
+# QRouter:QRouter: Question-Conditioned Region Routing for Efficient Mamba-based Visual Question Answering
 
-Anonymous code release for **QRouter: question-conditioned region routing for fine-grained VQA**.
+## Introduction
+### Abstract
+Efficient vision-language models have recently made strong progress on visual question answering (VQA), yet most of them still encode images as dense and largely question-agnostic token sequences. This design limits their ability to focus on the small but semantically critical regions required for fine-grained reasoning. We present QRouter, a framework that introduces question-conditioned grounding as an intermediate structural prior for fine-grained visual question answering. Instead of treating grounding as a standalone output task, QRouter uses grounded regions to reorganize dense visual features into a compact structured visual sequence consisting of region tokens, routed context tokens, and a background token. The resulting sequence is then processed by an efficient Mamba-based multimodal backbone. Experiments on seven benchmarks show that QRouter consistently improves over strong open-source baselines, including recent efficient state-space vision-language models, on both open-ended and grounding-sensitive question answering tasks. The improvements are particularly pronounced on benchmarks that require compositional reasoning, spatial verification, and hallucination suppression. Crucially, QRouter preserves the favorable efficiency characteristics of compact Mamba-based backbones, keeping end-to-end inference cost close to strong efficiency-oriented baselines. These results suggest that explicitly organizing question-relevant visual evidence is a practical and effective direction for efficient fine-grained visual question answering. 
+
+### Overview
+The overall framework of QRouter is as follows：
+![overview](https://github.com/Event-AHU/Medical_Image_Analysis/blob/main/EMRRG/framework.jpg)
+
+
+
 
 This repository focuses on the **training mainline** used in the paper. It includes:
 
